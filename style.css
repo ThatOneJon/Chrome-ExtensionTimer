@@ -1,0 +1,52 @@
+h1{
+    color:red;
+}
+
+.button{
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 5px 0px 5px
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px grey;
+}
+
+#startButton{
+    background-color: green;
+}
+
+#stopButton{
+    background-color: red;
+}
+
+#clearButton{
+    background-color: blue;
+}
+
+#selectMenu{
+    width: 130px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;;
+}
+
+body{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#resumeButton{
+    background-color: blueviolet;
+    display: none;
+}
+
+#clearTracked{
+    background-color:pink;
+}
